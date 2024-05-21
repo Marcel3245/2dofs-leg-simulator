@@ -146,22 +146,6 @@ class Robot:
         
         screen.blit(text, (0, 20))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class AStarSearch:
     def __init__(self, grid, src, dest):
         self.ROW = len(grid)
@@ -266,21 +250,6 @@ class AStarSearch:
 
         if not found_dest:
             print("Failed to find the destination cell")
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 
 class Simulator(object):
